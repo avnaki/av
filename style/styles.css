@@ -1,0 +1,101 @@
+@import "reset.css";
+@font-face {
+  font-family: lucida;
+
+  src: url(lucida.ttf);
+}
+
+body {
+  width: 66vw;
+  margin: 10vw auto 0;
+
+  color: #FFFFFF;
+  background-color: #000000;
+
+  font-family: lucida, sans-serif;
+}
+.head {
+  position: relative;
+}
+.one {
+  margin-left: -6vw;
+
+  color: red;
+
+  font-size: 25vw;
+}
+.two {
+  position: absolute;
+  right: 0;
+  bottom: 44vw;
+}
+img.iuda {
+  width: 50vw;
+  height: 50vw;
+  margin-top: -11vw;
+}
+img {
+  width: 40vw;
+  height: 40vw;
+  margin: 6vw 11vw;
+}
+h2 {
+  margin-bottom: 6vw;
+
+  color: red;
+
+  font-size: 4vw;
+  font-weight: bold;
+}
+p {
+  font-size: 3vw;
+  line-height: 3vw;
+}
+p + p {
+  margin-top: 4vw;
+}
+.four {
+  width: 27vw;
+  margin: 11vw auto;
+}
+a {
+  padding: 2vw 5vw;
+
+  text-decoration: none;
+
+  color: inherit;
+  border: 1px solid #FFFFFF;
+  background: red;
+
+  font-size: 2vw;
+}
+.num13 {
+  color: red;
+
+  font-size: 50vw;
+}
+.element {
+  position: relative;
+}
+.o {
+  margin-top: -25vw;
+}
+.t {
+  position: absolute;
+  top: 18vw;
+  left: 25vw;
+
+  font-size: 10vw;
+}
+.m {
+  margin: 0 9vw;
+}
+
+@media (min-width: 1024px) {
+  .two {
+    top: 4vw;
+  }
+  img.iuda {
+    margin-top: -42vw;
+  }
+}
